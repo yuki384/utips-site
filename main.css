@@ -35,10 +35,16 @@
 .homep{
   color: #fff;
 }
+.content{
+  position:absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
 .box{
   height: 560px;
   text-align: center;
   margin: 0;
+  position:relative;
 }
 #what{
   background: linear-gradient(#ffa349,#fcd849);

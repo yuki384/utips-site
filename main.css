@@ -39,6 +39,7 @@
   position:absolute;
   top: 50%;
   transform: translateY(-50%);
+  margin: 16px;
 }
 .box{
   height: 560px;

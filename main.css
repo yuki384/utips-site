@@ -28,15 +28,16 @@
   font-family: "Abel";
 }
 .homeh2{
-  line-height:560px;
   color: #fff;
   font-size: 24px;
   margin: 0;
 }
+.homep{
+  color: #fff;
+}
 .box{
   height: 560px;
   text-align: center;
-  vertical-align:middle;
   margin: 0;
 }
 #what{

@@ -1,3 +1,4 @@
+/*menu*/
 .menu, .menu-list {
   list-style: none;
   padding-left: 0;
@@ -25,4 +26,10 @@
 	font-weight:600;
   color: #242424;
   font-family: "Abel";
+}
+
+#what{
+  height: 480px;
+  text-align: center;
+  background: linear-gradient(to right,#ffa349,#fcd849);
 }

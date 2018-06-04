@@ -41,12 +41,13 @@
   transform: translateY(-50%);
   margin: 16px;
   text-align: center;
-  width: 100%;
+  width: auto;
 }
 .box{
   height: 560px;
   margin: 0;
   position:relative;
+  padding: 12px;
 }
 #what{
   background: linear-gradient(#ffa349,#fcd849);

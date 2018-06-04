@@ -40,10 +40,11 @@
   top: 50%;
   transform: translateY(-50%);
   margin: 16px;
+  text-align: center;
+  width: 100%;
 }
 .box{
   height: 560px;
-  text-align: center;
   margin: 0;
   position:relative;
 }

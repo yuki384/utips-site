@@ -27,13 +27,29 @@
   color: #242424;
   font-family: "Abel";
 }
-
-#what{
-  height: 480px;
+.homeh2{
   line-height:480px;
   color: #fff;
   font-size: 24px;
+  margin: 0;
+}
+.box{
+  height: 480px;
   text-align: center;
   vertical-align:middle;
-  background: linear-gradient(to right,#ffa349,#fcd849);
+  margin: 0;
+}
+#what{
+  background: linear-gradient(#ffa349,#fcd849);
+}
+#who{
+  background: linear-gradient(#fcd849,#c4ff47);
+}
+#where{
+  background: linear-gradient(#c4ff47,#3feaa8);
+}
+#why{
+  background: linear-gradient(#3feaa8,#3f8cea);
+}
+#how{background: linear-gradient(#ffa349,#fcd849);
 }

@@ -1,0 +1,28 @@
+.menu, .menu-list {
+  list-style: none;
+  padding-left: 0;
+}
+.menu-case {
+	float: left;
+	display: inline;
+	text-align: left;
+	margin-right: 20px;
+}
+.menu{
+	bottom: 30px;7
+  display: block;
+}
+.menu:after {
+  content: "";
+  clear: both;
+  display: block;
+}
+.menu-case:hover .menu-name {
+  color: #29ad95;
+}
+.menu-name{
+	font-size: 24px;
+	font-weight:600;
+  color: #242424;
+  font-family: "Abel";
+}

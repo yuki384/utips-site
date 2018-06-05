@@ -92,4 +92,7 @@ header{
   color:#d3d3d3;
   transition: 0.3s;
 }
+.content label span{
+  font-size: 16px;
+}
 /*https://saruwakakun.com/html-css/reference/hidden-show*/

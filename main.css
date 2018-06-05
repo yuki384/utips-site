@@ -1,7 +1,9 @@
 @import url('https://use.fontawesome.com/releases/v5.0.8/css/all.css');
+@import url('https://fonts.googleapis.com/earlyaccess/notosansjapanese.css');
 body{
   background-color: #fafafa;
   margin: 0;
+  font-family: "Noto Sans Japanese";
 }
 footer{
   padding: 20px;
@@ -45,12 +47,12 @@ header a{
 }
 /*home*/
 .homeh2{
-  color: #fff;
+  color: #696969;
   font-size: 24px;
   margin: 0;
 }
 .homep{
-  color: #fff;
+  color: #696969;
 }
 .content{
   position:absolute;
@@ -93,7 +95,7 @@ header a{
   opacity: 1;
 }
 .content label{
-  color: #fff;
+  color: #696969;
   font-size: 24px;
 }
 .content label:hover{

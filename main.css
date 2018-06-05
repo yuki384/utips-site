@@ -84,4 +84,12 @@ header{
   height: auto;
   opacity: 1;
 }
+.content label{
+  color: #fff;
+  font-size: 24px;
+}
+.content label:hover{
+  color:#d3d3d3;
+  transition: 0.3s;
+}
 /*https://saruwakakun.com/html-css/reference/hidden-show*/

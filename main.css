@@ -67,7 +67,7 @@ header a{
   margin: 0;
   position:relative;
   padding: 12px;
-}
+}/*
 #what{
   background: linear-gradient(#ffa349,#fcd849);
 }
@@ -79,7 +79,7 @@ header a{
 }
 #why{
   background: linear-gradient(#3feaa8,#3f8cea);
-}
+}*/
 /*content*/
 .content input{
   display: none;
@@ -99,7 +99,7 @@ header a{
   font-size: 24px;
 }
 .content label:hover{
-  color:#fcd849;
+  color:#ffa349;
   transition: 0.3s;
 }
 .content label span{

@@ -14,21 +14,21 @@ header{
 }
 header a{
   text-decoration: none;
+  color: #752;
 }
 /*menu*/
 .menu{
   list-style: none;
   padding-left: 0;
-  margin: 0;
+  margin: 12;
 }
 .menu-case {
 	float: left;
 	display: inline;
 	text-align: left;
 	margin-right: 20px;
-  font-size: 24px;
+  font-size: 21px;
   font-weight:600;
-  color: #242424;
   border-bottom: solid #ffa349 4px;
 }
 .menu{

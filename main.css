@@ -1,3 +1,7 @@
+body{
+  background-color: #fafafa;
+  margin: 0;
+}
 /*menu*/
 .menu, .menu-list {
   list-style: none;
@@ -27,6 +31,7 @@
   color: #242424;
   font-family: "Abel";
 }
+/*home*/
 .homeh2{
   color: #fff;
   font-size: 24px;
@@ -61,3 +66,5 @@
 #why{
   background: linear-gradient(#3feaa8,#3f8cea);
 }
+
+/*header*/

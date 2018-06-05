@@ -89,7 +89,6 @@ header a{
   transition: 0.8s;
 }
 .content input:checked ~ .homep {
-  padding: 10px 0;
   height: auto;
   opacity: 1;
 }
@@ -98,7 +97,7 @@ header a{
   font-size: 24px;
 }
 .content label:hover{
-  color:#d3d3d3;
+  color:#fcd849;
   transition: 0.3s;
 }
 .content label span{

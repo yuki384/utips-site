@@ -4,8 +4,6 @@
     <meta charset="utf-8">
     <title>UTIPS</title>
     <link rel="stylesheet" type="text/css" href="main.css">
-    <script type="text/javascript">
-    </script>
   </head>
   <body>
     <header>
@@ -15,11 +13,10 @@
         <li class="menu-case"><a href="whomade.html">制作者</a></li>
       </ul>
     </header>
-
     <div id="what" class="box">
       <div class="content">
         <h2 class="homeh2">家事情報共有サービス UTIPS</h2>
-        <label for="home1"><span>詳しく知る</span><i class="fas fa-chevron-down"></i></label>
+        <label for="home1" class="lblchk"><span>詳しく知る</span><i class="fas fa-chevron-down"></i></label>
         <input type="checkbox" name="chkbox" id="home1" onclick="change()" class="chkbox"/>
         <p class="homep">「UTIPS」は、それぞれの家事のやり方や工夫を共有するWebサービス/スマートフォンアプリです。家事のやり方は家によって違って、工夫していることなども様々です。ほかの家のやり方を知ることで、より効率の良く、それぞれのライフスタイルにあった家事をすることができるようにするサービスです。</p>
       </div>
@@ -42,6 +39,14 @@
         <p class="homep">それぞれの家庭で家事の工夫ややり方はいろいろあると思います。そんな工夫を必要としている人に知ってもらえればより効率の良い、質のいい家事ができると考えました。</p>
       </div>
     </div>
+
+    <script>
+    Array.from(document.getElementsByClassName("chkbox")).map((dom,index)=>{
+      dom.addEventListener('change',()=>{
+        document.getElementsByClassName("lblchk")[index].innerHTML=(dom.checked?'<span>閉じる</span><i class="fas fa-chevron-up"></i>':'<span>詳しく知る</span><i class="fas fa-chevron-down"></i>');
+      });
+    });
+    </script>
     <footer>
       Create by Yuki Mihashi<br>
       © 2018 UTIPS

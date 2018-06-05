@@ -20,7 +20,7 @@ header a{
 .menu{
   list-style: none;
   padding-left: 0;
-  margin: 12;
+  margin: 12px;
 }
 .menu-case {
 	float: left;

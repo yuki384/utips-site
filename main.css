@@ -3,8 +3,12 @@ body{
   background-color: #fafafa;
   margin: 0;
 }
+
 header{
   margin: 20px 20px 0px 20px;
+}
+header a{
+  text-decoration: none;
 }
 /*menu*/
 .menu{

@@ -2,19 +2,26 @@ body{
   background-color: #fafafa;
   margin: 0;
 }
+header{
+  margin: 20px 20px 0px 20px;
+}
 /*menu*/
-.menu, .menu-list {
+.menu{
   list-style: none;
   padding-left: 0;
+  margin: 0;
 }
 .menu-case {
 	float: left;
 	display: inline;
 	text-align: left;
 	margin-right: 20px;
+  font-size: 24px;
+  font-weight:600;
+  color: #242424;
+  border-bottom: solid #ffa349 4px;
 }
 .menu{
-	bottom: 30px;7
   display: block;
 }
 .menu:after {
@@ -22,14 +29,9 @@ body{
   clear: both;
   display: block;
 }
-.menu-case:hover .menu-name {
-  color: #29ad95;
-}
-.menu-name{
-	font-size: 24px;
-	font-weight:600;
-  color: #242424;
-  font-family: "Abel";
+.menu-case:hover{
+  border-bottom: solid #fcd849 4px;
+  transition: 0.3s;
 }
 /*home*/
 .homeh2{
@@ -66,5 +68,3 @@ body{
 #why{
   background: linear-gradient(#3feaa8,#3f8cea);
 }
-
-/*header*/

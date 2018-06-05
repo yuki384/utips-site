@@ -69,3 +69,19 @@ header{
 #why{
   background: linear-gradient(#3feaa8,#3f8cea);
 }
+
+.content input{
+  display: none;
+}
+.content .homep{
+  padding: 0;
+  overflow: hidden;
+  opacity: 0;
+  transition: 0.8s;
+}
+.content input:checked ~ .homep {
+  padding: 10px 0;
+  height: auto;
+  opacity: 1;
+}
+/*https://saruwakakun.com/html-css/reference/hidden-show*/

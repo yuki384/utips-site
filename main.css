@@ -18,6 +18,13 @@ header a{
   text-decoration: none;
   color: #752;
 }
+h2{
+  text-align: center;
+}
+.box{
+  width: 600px;
+  margin: 60px auto;
+}
 /*menu*/
 .menu{
   list-style: none;
@@ -46,7 +53,7 @@ header a{
   transition: 0.3s;
 }
 /*home*/
-.homeh2{
+/*.homeh2{
   color: #696969;
   font-size: 24px;
   margin: 0;
@@ -67,7 +74,8 @@ header a{
   margin: 0;
   position:relative;
   padding: 12px;
-}/*
+}*/
+/*
 #what{
   background: linear-gradient(#ffa349,#fcd849);
 }
@@ -81,7 +89,7 @@ header a{
   background: linear-gradient(#3feaa8,#3f8cea);
 }*/
 /*content*/
-.content input{
+/*.content input{
   display: none;
 }
 .content .homep{
@@ -89,7 +97,7 @@ header a{
   overflow: hidden;
   opacity: 0;
   transition: 0.8s;
-}
+}*/
 .content input:checked ~ .homep {
   height: auto;
   opacity: 1;

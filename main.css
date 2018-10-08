@@ -21,9 +21,16 @@ header a{
 h2{
   text-align: center;
 }
+p{
+  text-align: left;
+}
 .box{
   width: 600px;
-  margin: 60px auto;
+  margin: 120px auto;
+}
+.phoneimg{
+  margin: auto;
+  width: 40%;
 }
 /*menu*/
 .menu{
@@ -98,6 +105,9 @@ h2{
   opacity: 0;
   transition: 0.8s;
 }*/
+.content{
+  text-align: center;
+}
 .content input:checked ~ .homep {
   height: auto;
   opacity: 1;
